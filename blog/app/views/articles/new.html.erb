@@ -1,4 +1,6 @@
-<%= form_for :article do |f| %>
+<span>Abjad value: </span> <strong><%= Abjad.getValue %></strong> 
+
+<%= form_for :article, url: articles_path do |f| %>
   <p>
     <%= f.label :title %><br>
     <%= f.text_field :title %>

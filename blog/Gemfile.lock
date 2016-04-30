@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/carlos/Development/abjad
+GIT
+  remote: https://github.com/carlosvpi/abjad.git
+  revision: f2fabdec980c6b102785c71d934d9003f7eb8b22
+  branch: feature/valueMod
   specs:
     abjad (0.0.1)
 
